@@ -1,1 +1,6 @@
 *.md linguist-language=objective-c
+*.a linguist-language=objective-c
+*.plist linguist-language=objective-c
+*.* linguist-language=objective-c
+*.framework linguist-language=objective-c
+*.xcconfig linguist-language=objective-c
