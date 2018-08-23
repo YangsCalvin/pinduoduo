@@ -1,24 +1,16 @@
 PODS:
-  - MJRefresh (3.1.15.3)
   - Reveal-SDK (16)
-  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - MJRefresh
   - Reveal-SDK
-  - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - MJRefresh
     - Reveal-SDK
-    - SVProgressHUD
 
 SPEC CHECKSUMS:
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   Reveal-SDK: ed36bdbb3cbf90b94ae5da0dbcb3c7ae6738c51f
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: c8f34ffe442df410ab81c6b761e09ecac01cbcba
+PODFILE CHECKSUM: 8891b5a99a6e155c2ee8ef333e8cfe4653753bf1
 
 COCOAPODS: 1.5.3
