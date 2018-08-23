@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>domain</key>
+		<string>avatar.yangkeduo.com</string>
+		<key>execute_tcp_connect</key>
+		<integer>1</integer>
+		<key>execute_tcp_connect_port_443</key>
+		<integer>1</integer>
+		<key>execute_ping</key>
+		<integer>1</integer>
+		<key>execute_trace_route</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>domain</key>
+		<string>omsproductionimg.yangkeduo.com</string>
+		<key>execute_tcp_connect</key>
+		<integer>1</integer>
+		<key>execute_tcp_connect_port_443</key>
+		<integer>1</integer>
+		<key>execute_ping</key>
+		<integer>1</integer>
+		<key>execute_trace_route</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>domain</key>
+		<string>apiv4.yangkeduo.com  </string>
+		<key>execute_tcp_connect</key>
+		<integer>1</integer>
+		<key>execute_tcp_connect_port_443</key>
+		<integer>1</integer>
+		<key>execute_ping</key>
+		<integer>1</integer>
+		<key>execute_trace_route</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>domain</key>
+		<string>ws.yangkeduo.com</string>
+		<key>execute_tcp_connect</key>
+		<integer>1</integer>
+		<key>execute_tcp_connect_port_443</key>
+		<integer>1</integer>
+		<key>execute_ping</key>
+		<integer>1</integer>
+		<key>execute_trace_route</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>domain</key>
+		<string>t21img.yangkeduo.com</string>
+		<key>execute_tcp_connect</key>
+		<integer>1</integer>
+		<key>execute_tcp_connect_port_443</key>
+		<integer>1</integer>
+		<key>execute_ping</key>
+		<integer>1</integer>
+		<key>execute_trace_route</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

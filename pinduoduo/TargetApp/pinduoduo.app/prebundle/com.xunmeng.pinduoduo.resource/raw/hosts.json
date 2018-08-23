@@ -1,0 +1,128 @@
+{
+  "api_domains": [
+    "apiv2.yangkeduo.com",
+    "apiv3.yangkeduo.com",
+    "apiv4.yangkeduo.com",
+    "apiv2.hutaojie.com"
+  ],
+  "api_hosts_with_pdd_id": [
+    "apiv2.yangkeduo.com",
+    "apiv3.yangkeduo.com",
+    "apiv4.yangkeduo.com",
+    "apiv2.hutaojie.com",
+    "meta.yangkeduo.com",
+    "api.pinduoduo.com"
+  ],
+  "enable_httpdns": 1,
+  "enable_httpdns_version": "3.10.0",
+  "enable_match_host": 0,
+  "enable_match_host_version": "3.11.0",
+  "enable_new_api_domain": 1,
+  "hosts": [
+    "https://apiv2.yangkeduo.com",
+    "https://apiv3.yangkeduo.com",
+    "https://apiv4.yangkeduo.com",
+    "https://api-static.yangkeduo.com",
+    "https://meta.yangkeduo.com",
+    "https://cmta.yangkeduo.com",
+    "https://t.yangkeduo.com",
+    "https://a.tracking.yangkeduo.com",
+    "https://p.tracking.yangkeduo.com",
+    "https://e.tracking.yangkeduo.com",
+    "https://mobile.yangkeduo.com",
+    "https://omsproductionimg.yangkeduo.com",
+    "https://imsproductionimg.yangkeduo.com",
+    "https://avatar.yangkeduo.com",
+    "https://mcdn.yangkeduo.com",
+    "https://pinduoduoimg.yangkeduo.com",
+    "https://file.yangkeduo.com",
+    "https://cmta.yangkeduo.com",
+    "https://durindata.yqphh.com",
+    "https://mcdn.yangkeduo.com"
+  ],
+  "httpdns_hosts": [
+    "apiv3.yangkeduo.com",
+    "apiv4.yangkeduo.com",
+    "push.yangkeduo.com",
+    "ws.yangkeduo.com",
+    "mcdn.yangkeduo.com",
+    "meta.yangkeduo.com"
+  ],
+  "hutaojie_debug": [
+    {
+      "host": "http://file.hutaojie.com/",
+      "match_url_list": [
+        "/store_audio",
+        "/store_avatar_image"
+      ]
+    }
+  ],
+  "hutaojie_release": [
+    {
+      "host": "http://file.hutaojie.com/",
+      "match_url_list": [
+        "/store_avatar_image"
+      ]
+    }
+  ],
+  "min_app_version": "2.13.0",
+  "new_api_domain": "apiv4.yangkeduo.com",
+  "old_api_domain": "apiv2.yangkeduo.com",
+  "pinduoduo_debug": [
+    {
+      "host": "http://meta.yangkeduo.com/",
+      "match_url_list": [
+        "/ab_config",
+        "/api/module/config",
+        "/api/module/download_callback",
+        "/api/durin/apps/info_rpt"
+      ]
+    },
+    {
+      "host": "http://file.yangkeduo.com/",
+      "match_url_list": [
+        "/v2/store_image",
+        "/store_audio",
+        "/store_avatar_image"
+      ]
+    }
+  ],
+  "pinduoduo_release": [
+    {
+      "host": "http://meta.yangkeduo.com/",
+      "match_url_list": [
+        "/ab_config",
+        "/api/module/config",
+        "/api/module/download_callback",
+        "/api/durin/apps/info_rpt"
+      ]
+    },
+    {
+      "host": "http://file.yangkeduo.com/",
+      "match_url_list": [
+        "/v2/store_image",
+        "/store_audio",
+        "/store_avatar_image"
+      ]
+    }
+  ],
+  "rewrite_url_path": {
+    "apiv3.yangkeduo.com": {
+      "/v3/goods": {
+        "v3/goods": "v4/goods"
+      }
+    }
+  },
+  "rewrite_url_path_by_match_path": {
+    "apiv3.yangkeduo.com": {
+      "/v3/goods": {
+        "v3/goods": "v4/goods"
+      }
+    },
+    "apiv4.yangkeduo.com": {
+      "/im/message/send": {
+        "im/message/send": "api/rainbow/send_friend_message"
+      }
+    }
+  }
+}

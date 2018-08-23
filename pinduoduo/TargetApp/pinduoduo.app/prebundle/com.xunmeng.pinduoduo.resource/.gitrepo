@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = gitlab@gitlab.hutaojie.com:app_shared/pdd_resource.git
+	branch = master
+	commit = 0bf0de97de8f21ec8349afce307ade29d26c42ce
+	parent = ca944290218f2ffc7b34f5b90056b2a5a3dfe625
+	cmdver = 0.3.0

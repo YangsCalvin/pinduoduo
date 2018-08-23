@@ -1,0 +1,223 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "request success",
+  "data": [
+    {
+      "type": "native",
+      "name": "count_down",
+      "data": {},
+      "style": {
+        "width": 350,
+        "height": 48,
+        "padding": [12, 0, 12, 0]
+      }
+    },
+    {
+      "type": "dynamic",
+      "name": "single_picture_banner",
+      "template": {
+        "url": "dynamic://single_picture_banner"
+      },
+      "style": {
+        "width": 350,
+        "height": 100,
+        "padding": [12, 0, 12, 0]
+      },
+      "data": {}
+    },
+    {
+      "type": "dynamic",
+      "name": "triple_split_item",
+      "template": {
+        "url": "http://triple_split_item"
+      },
+      "style": {
+        "width": 375,
+        "height": 200
+      },
+      "data": {
+        "content": [
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "type": "native",
+      "name": "grid",
+      "tag" : "1",
+      "style": {
+        "columns": [1, 1],
+        "rowSpace": 5,
+        "padding": [12, 0, 12, 0]
+      },
+      "itemConfig": {
+        "style": {
+          "width": 350,
+          "height": 135
+        },
+        "type": "dynamic",
+        "name": "hot_level_item",
+        "template": {
+          "url": "http://hot_level_item"
+        }
+      },
+      "items": [
+        {
+          "type": "dynamic",
+          "template": {
+            "url": "http://hot_level_item"
+          },
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        }
+      ]
+    },
+    {
+      "type": "native",
+      "name": "count_down",
+      "data": {},
+      "style": {
+        "width": 350,
+        "height": 48,
+        "padding": [12, 0, 12, 0]
+      }
+    },
+    {
+      "type": "dynamic",
+      "name": "single_picture_banner",
+      "template": {
+        "url": "dynamic://single_picture_banner"
+      },
+      "style": {
+        "width": 350,
+        "height": 100,
+        "padding": [12, 0, 12, 0]
+      },
+      "data": {}
+    },
+    {
+      "type": "native",
+      "tag" : "2",
+      "name": "grid",
+      "style": {
+        "columns": [2, 1],
+        "rowSpace": 5,
+        "columnSpace": 7,
+        "padding": [12, 0, 12, 0]
+      },
+      "itemConfig": {
+        "type": "dynamic",
+        "name": "noukyo_item",
+        "template": {
+          "url": "http://noukyo_item"
+        },
+        "style": {
+          "width": 172,
+          "height": 260
+        }
+      },
+      "items": [
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        }
+      ]
+    },
+    {
+      "type": "native",
+      "name": "count_down",
+      "data": {},
+      "style": {
+        "width": 350,
+        "height": 48,
+        "padding": [12, 0, 12, 0]
+      }
+    },
+    {
+      "type": "dynamic",
+      "name": "single_picture_banner",
+      "template": {
+        "url": "dynamic://single_picture_banner"
+      },
+      "style": {
+        "width": 350,
+        "height": 100,
+        "padding": [12, 0, 12, 0]
+      },
+      "data": {}
+    },
+    {
+      "type": "native",
+      "tag" : "3",
+      "name": "grid",
+      "style": {
+        "columns": [2, 1],
+        "rowSpace": 5,
+        "columnSpace": 7,
+        "padding": [12, 0, 12, 0]
+      },
+      "itemConfig": {
+        "type": "dynamic",
+        "name": "preview_item",
+        "template": {
+          "url": "dynamic://preview_item"
+        },
+        "style": {
+          "width": 172,
+          "height": 260
+        }
+      },
+      "items": [
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        },
+        {
+          "data": {}
+        }
+      ]
+    }
+  ]
+}

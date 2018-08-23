@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E28117B212D2F9C00168CD2 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E28117A212D2F9C00168CD2 /* MDConfig.plist */; };
+		3E281185212D2F9C00168CD2 /* libpinduoduoDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E281184212D2F9C00168CD2 /* libpinduoduoDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3E28118A212D2F9C00168CD2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E281189212D2F9C00168CD2 /* JavaScriptCore.framework */; };
+		3E28118C212D2F9C00168CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E28118B212D2F9C00168CD2 /* Foundation.framework */; };
+		3E28118E212D2F9C00168CD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E28118D212D2F9C00168CD2 /* UIKit.framework */; };
+		3E281193212D2F9C00168CD2 /* pinduoduoDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E281192212D2F9C00168CD2 /* pinduoduoDylib.mm */; };
+		3E281196212D2F9C00168CD2 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E281195212D2F9C00168CD2 /* MDConfigManager.h */; };
+		3E281198212D2F9C00168CD2 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E281197212D2F9C00168CD2 /* MDConfigManager.m */; };
+		3E28119A212D2F9C00168CD2 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E281199212D2F9C00168CD2 /* MDCycriptManager.h */; };
+		3E28119C212D2F9C00168CD2 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E28119B212D2F9C00168CD2 /* MDCycriptManager.m */; };
+		3E28119E212D2F9C00168CD2 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E28119D212D2F9C00168CD2 /* MDMethodTrace.h */; };
+		3E2811A0212D2F9C00168CD2 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E28119F212D2F9C00168CD2 /* MDMethodTrace.m */; };
+		3E2811A2212D2F9C00168CD2 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2811A1212D2F9C00168CD2 /* ANYMethodLog.h */; };
+		3E2811A4212D2F9C00168CD2 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2811A3212D2F9C00168CD2 /* ANYMethodLog.m */; };
+		3E2811A7212D2F9C00168CD2 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2811A6212D2F9C00168CD2 /* LLDBTools.h */; };
+		3E2811A9212D2F9C00168CD2 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E2811A8212D2F9C00168CD2 /* LLDBTools.mm */; };
+		3E2811AE212D2F9C00168CD2 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2811AD212D2F9C00168CD2 /* AntiAntiDebug.m */; };
+		3E2811B1212D2F9C00168CD2 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E2811B0212D2F9C00168CD2 /* fishhook.c */; };
+		3E2811B3212D2F9C00168CD2 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2811B2212D2F9C00168CD2 /* fishhook.h */; };
+		3E2811B5212D2F9C00168CD2 /* pinduoduoDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2811B4212D2F9C00168CD2 /* pinduoduoDylib.h */; };
+		3E2811B7212D2F9C00168CD2 /* pinduoduoDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2811B6212D2F9C00168CD2 /* pinduoduoDylib.m */; };
+		3E2811C1212D2FA300168CD2 /* 拼多多-多多果园种树领水果-4.18.0(越狱应用).ipa in Resources */ = {isa = PBXBuildFile; fileRef = 3E2811C0212D2FA300168CD2 /* 拼多多-多多果园种树领水果-4.18.0(越狱应用).ipa */; };
+		3E2811C3212D334100168CD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2811C2212D334100168CD2 /* Images.xcassets */; };
+		3E4C9751212D51BC00EAC6A0 /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C974C212D50F100EAC6A0 /* CTBlockDescription.m */; };
+		3E4C9763212D63A100EAC6A0 /* AMHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4C9761212D63A100EAC6A0 /* AMHTTPResponse.h */; };
+		3E4C9764212D63A100EAC6A0 /* AMHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C9762212D63A100EAC6A0 /* AMHTTPResponse.m */; };
+		3E4C976A212D63C700EAC6A0 /* AMHttpResponseExtraInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4C9768212D63C600EAC6A0 /* AMHttpResponseExtraInfo.h */; };
+		3E4C976B212D63C700EAC6A0 /* AMHttpResponseExtraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C9769212D63C700EAC6A0 /* AMHttpResponseExtraInfo.m */; };
+		6683462F58F7B60CDA63B489 /* libPods-pinduoduoDylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BA1C605D43A8C99867004F /* libPods-pinduoduoDylib.a */; };
+		DB7031CABB24342BB4E9D80D /* libPods-pinduoduo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CCECBCA858C7750E9216E7 /* libPods-pinduoduo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E281186212D2F9C00168CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E281167212D2F9C00168CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E281183212D2F9C00168CD2;
+			remoteInfo = pinduoduoDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E28116F212D2F9C00168CD2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3E281185212D2F9C00168CD2 /* libpinduoduoDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23742FEDD9800E36FC5D0147 /* Pods-pinduoduoDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinduoduoDylib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pinduoduoDylib/Pods-pinduoduoDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		26943E286B6585FA9FF7CC4A /* Pods-pinduoduo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinduoduo.release.xcconfig"; path = "Pods/Target Support Files/Pods-pinduoduo/Pods-pinduoduo.release.xcconfig"; sourceTree = "<group>"; };
+		3E281172212D2F9C00168CD2 /* pinduoduo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinduoduo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E281175212D2F9C00168CD2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3E281176212D2F9C00168CD2 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		3E281178212D2F9C00168CD2 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		3E28117A212D2F9C00168CD2 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		3E28117D212D2F9C00168CD2 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		3E28117E212D2F9C00168CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E281184212D2F9C00168CD2 /* libpinduoduoDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libpinduoduoDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E281189212D2F9C00168CD2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3E28118B212D2F9C00168CD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E28118D212D2F9C00168CD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E281191212D2F9C00168CD2 /* pinduoduoDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = pinduoduoDylib.xm; path = Logos/pinduoduoDylib.xm; sourceTree = "<group>"; };
+		3E281192212D2F9C00168CD2 /* pinduoduoDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = pinduoduoDylib.mm; path = Logos/pinduoduoDylib.mm; sourceTree = "<group>"; };
+		3E281195212D2F9C00168CD2 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		3E281197212D2F9C00168CD2 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		3E281199212D2F9C00168CD2 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		3E28119B212D2F9C00168CD2 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		3E28119D212D2F9C00168CD2 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		3E28119F212D2F9C00168CD2 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		3E2811A1212D2F9C00168CD2 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		3E2811A3212D2F9C00168CD2 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		3E2811A6212D2F9C00168CD2 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		3E2811A8212D2F9C00168CD2 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		3E2811AB212D2F9C00168CD2 /* pinduoduoDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pinduoduoDylib-Prefix.pch"; sourceTree = "<group>"; };
+		3E2811AD212D2F9C00168CD2 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		3E2811B0212D2F9C00168CD2 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		3E2811B2212D2F9C00168CD2 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		3E2811B4212D2F9C00168CD2 /* pinduoduoDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinduoduoDylib.h; sourceTree = "<group>"; };
+		3E2811B6212D2F9C00168CD2 /* pinduoduoDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinduoduoDylib.m; sourceTree = "<group>"; };
+		3E2811C0212D2FA300168CD2 /* 拼多多-多多果园种树领水果-4.18.0(越狱应用).ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "拼多多-多多果园种树领水果-4.18.0(越狱应用).ipa"; sourceTree = "<group>"; };
+		3E2811C2212D334100168CD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E4C974C212D50F100EAC6A0 /* CTBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBlockDescription.m; sourceTree = "<group>"; };
+		3E4C974D212D50F100EAC6A0 /* CTBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBlockDescription.h; sourceTree = "<group>"; };
+		3E4C9761212D63A100EAC6A0 /* AMHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMHTTPResponse.h; sourceTree = "<group>"; };
+		3E4C9762212D63A100EAC6A0 /* AMHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMHTTPResponse.m; sourceTree = "<group>"; };
+		3E4C9768212D63C600EAC6A0 /* AMHttpResponseExtraInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMHttpResponseExtraInfo.h; sourceTree = "<group>"; };
+		3E4C9769212D63C700EAC6A0 /* AMHttpResponseExtraInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMHttpResponseExtraInfo.m; sourceTree = "<group>"; };
+		72CCECBCA858C7750E9216E7 /* libPods-pinduoduo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pinduoduo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BA1C605D43A8C99867004F /* libPods-pinduoduoDylib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pinduoduoDylib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6191157EA6D7BD49C1935BB /* Pods-pinduoduo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinduoduo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pinduoduo/Pods-pinduoduo.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BFF1D7EEFD236541E3E3F3 /* Pods-pinduoduoDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinduoduoDylib.release.xcconfig"; path = "Pods/Target Support Files/Pods-pinduoduoDylib/Pods-pinduoduoDylib.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E28116C212D2F9C00168CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7031CABB24342BB4E9D80D /* libPods-pinduoduo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E281181212D2F9C00168CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E28118A212D2F9C00168CD2 /* JavaScriptCore.framework in Frameworks */,
+				3E28118E212D2F9C00168CD2 /* UIKit.framework in Frameworks */,
+				3E28118C212D2F9C00168CD2 /* Foundation.framework in Frameworks */,
+				6683462F58F7B60CDA63B489 /* libPods-pinduoduoDylib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E281166212D2F9C00168CD2 = {
+			isa = PBXGroup;
+			children = (
+				3E281174212D2F9C00168CD2 /* pinduoduo */,
+				3E28118F212D2F9C00168CD2 /* pinduoduoDylib */,
+				3E281188212D2F9C00168CD2 /* Frameworks */,
+				3E281173212D2F9C00168CD2 /* Products */,
+				F95BEB5E693D8550DCA27455 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3E281173212D2F9C00168CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E281172212D2F9C00168CD2 /* pinduoduo.app */,
+				3E281184212D2F9C00168CD2 /* libpinduoduoDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E281174212D2F9C00168CD2 /* pinduoduo */ = {
+			isa = PBXGroup;
+			children = (
+				3E281175212D2F9C00168CD2 /* icon.png */,
+				3E281176212D2F9C00168CD2 /* Target.plist */,
+				3E28117E212D2F9C00168CD2 /* Info.plist */,
+				3E281177212D2F9C00168CD2 /* Scripts */,
+				3E281179212D2F9C00168CD2 /* Config */,
+				3E28117C212D2F9C00168CD2 /* TargetApp */,
+				3E2811C2212D334100168CD2 /* Images.xcassets */,
+			);
+			path = pinduoduo;
+			sourceTree = "<group>";
+		};
+		3E281177212D2F9C00168CD2 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				3E281178212D2F9C00168CD2 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		3E281179212D2F9C00168CD2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3E28117A212D2F9C00168CD2 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		3E28117C212D2F9C00168CD2 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				3E2811C0212D2FA300168CD2 /* 拼多多-多多果园种树领水果-4.18.0(越狱应用).ipa */,
+				3E28117D212D2F9C00168CD2 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		3E281188212D2F9C00168CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E281189212D2F9C00168CD2 /* JavaScriptCore.framework */,
+				3E28118B212D2F9C00168CD2 /* Foundation.framework */,
+				3E28118D212D2F9C00168CD2 /* UIKit.framework */,
+				72CCECBCA858C7750E9216E7 /* libPods-pinduoduo.a */,
+				95BA1C605D43A8C99867004F /* libPods-pinduoduoDylib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E28118F212D2F9C00168CD2 /* pinduoduoDylib */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C9768212D63C600EAC6A0 /* AMHttpResponseExtraInfo.h */,
+				3E4C9769212D63C700EAC6A0 /* AMHttpResponseExtraInfo.m */,
+				3E4C9761212D63A100EAC6A0 /* AMHTTPResponse.h */,
+				3E4C9762212D63A100EAC6A0 /* AMHTTPResponse.m */,
+				3E4C974D212D50F100EAC6A0 /* CTBlockDescription.h */,
+				3E4C974C212D50F100EAC6A0 /* CTBlockDescription.m */,
+				3E2811B4212D2F9C00168CD2 /* pinduoduoDylib.h */,
+				3E2811B6212D2F9C00168CD2 /* pinduoduoDylib.m */,
+				3E281190212D2F9C00168CD2 /* Logos */,
+				3E281194212D2F9C00168CD2 /* Config */,
+				3E2811A5212D2F9C00168CD2 /* Tools */,
+				3E2811AC212D2F9C00168CD2 /* AntiAntiDebug */,
+				3E2811AF212D2F9C00168CD2 /* fishhook */,
+				3E2811AA212D2F9C00168CD2 /* Supporting Files */,
+			);
+			path = pinduoduoDylib;
+			sourceTree = "<group>";
+		};
+		3E281190212D2F9C00168CD2 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				3E281191212D2F9C00168CD2 /* pinduoduoDylib.xm */,
+				3E281192212D2F9C00168CD2 /* pinduoduoDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		3E281194212D2F9C00168CD2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3E281195212D2F9C00168CD2 /* MDConfigManager.h */,
+				3E281197212D2F9C00168CD2 /* MDConfigManager.m */,
+				3E281199212D2F9C00168CD2 /* MDCycriptManager.h */,
+				3E28119B212D2F9C00168CD2 /* MDCycriptManager.m */,
+				3E28119D212D2F9C00168CD2 /* MDMethodTrace.h */,
+				3E28119F212D2F9C00168CD2 /* MDMethodTrace.m */,
+				3E2811A1212D2F9C00168CD2 /* ANYMethodLog.h */,
+				3E2811A3212D2F9C00168CD2 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		3E2811A5212D2F9C00168CD2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3E2811A6212D2F9C00168CD2 /* LLDBTools.h */,
+				3E2811A8212D2F9C00168CD2 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		3E2811AA212D2F9C00168CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2811AB212D2F9C00168CD2 /* pinduoduoDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E2811AC212D2F9C00168CD2 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				3E2811AD212D2F9C00168CD2 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		3E2811AF212D2F9C00168CD2 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				3E2811B0212D2F9C00168CD2 /* fishhook.c */,
+				3E2811B2212D2F9C00168CD2 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+		F95BEB5E693D8550DCA27455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6191157EA6D7BD49C1935BB /* Pods-pinduoduo.debug.xcconfig */,
+				26943E286B6585FA9FF7CC4A /* Pods-pinduoduo.release.xcconfig */,
+				23742FEDD9800E36FC5D0147 /* Pods-pinduoduoDylib.debug.xcconfig */,
+				F0BFF1D7EEFD236541E3E3F3 /* Pods-pinduoduoDylib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E281182212D2F9C00168CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E28119A212D2F9C00168CD2 /* MDCycriptManager.h in Headers */,
+				3E28119E212D2F9C00168CD2 /* MDMethodTrace.h in Headers */,
+				3E2811A7212D2F9C00168CD2 /* LLDBTools.h in Headers */,
+				3E4C9763212D63A100EAC6A0 /* AMHTTPResponse.h in Headers */,
+				3E281196212D2F9C00168CD2 /* MDConfigManager.h in Headers */,
+				3E2811A2212D2F9C00168CD2 /* ANYMethodLog.h in Headers */,
+				3E2811B5212D2F9C00168CD2 /* pinduoduoDylib.h in Headers */,
+				3E4C976A212D63C700EAC6A0 /* AMHttpResponseExtraInfo.h in Headers */,
+				3E2811B3212D2F9C00168CD2 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E281171212D2F9C00168CD2 /* pinduoduo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2811BD212D2F9C00168CD2 /* Build configuration list for PBXNativeTarget "pinduoduo" */;
+			buildPhases = (
+				8ED7EBD67715FB60D06A6455 /* [CP] Check Pods Manifest.lock */,
+				3E28116B212D2F9C00168CD2 /* Sources */,
+				3E28116C212D2F9C00168CD2 /* Frameworks */,
+				3E28116D212D2F9C00168CD2 /* ShellScript */,
+				3E28116E212D2F9C00168CD2 /* Resources */,
+				3E28116F212D2F9C00168CD2 /* CopyFiles */,
+				3E281170212D2F9C00168CD2 /* ShellScript */,
+				56C9325F0EA00D57E47C6BB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E281187212D2F9C00168CD2 /* PBXTargetDependency */,
+			);
+			name = pinduoduo;
+			productName = pinduoduo;
+			productReference = 3E281172212D2F9C00168CD2 /* pinduoduo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E281183212D2F9C00168CD2 /* pinduoduoDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2811BA212D2F9C00168CD2 /* Build configuration list for PBXNativeTarget "pinduoduoDylib" */;
+			buildPhases = (
+				0C62DD124133090B24A217CA /* [CP] Check Pods Manifest.lock */,
+				3E28117F212D2F9C00168CD2 /* ShellScript */,
+				3E281180212D2F9C00168CD2 /* Sources */,
+				3E281181212D2F9C00168CD2 /* Frameworks */,
+				3E281182212D2F9C00168CD2 /* Headers */,
+				AB7C6F9F665E0E9279FFD7C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinduoduoDylib;
+			productName = pinduoduoDylib;
+			productReference = 3E281184212D2F9C00168CD2 /* libpinduoduoDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E281167212D2F9C00168CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Calvin;
+				TargetAttributes = {
+					3E281171212D2F9C00168CD2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3E281183212D2F9C00168CD2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 3E28116A212D2F9C00168CD2 /* Build configuration list for PBXProject "pinduoduo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E281166212D2F9C00168CD2;
+			productRefGroup = 3E281173212D2F9C00168CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E281171212D2F9C00168CD2 /* pinduoduo */,
+				3E281183212D2F9C00168CD2 /* pinduoduoDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E28116E212D2F9C00168CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2811C3212D334100168CD2 /* Images.xcassets in Resources */,
+				3E2811C1212D2FA300168CD2 /* 拼多多-多多果园种树领水果-4.18.0(越狱应用).ipa in Resources */,
+				3E28117B212D2F9C00168CD2 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C62DD124133090B24A217CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pinduoduoDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E28116D212D2F9C00168CD2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		3E281170212D2F9C00168CD2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		3E28117F212D2F9C00168CD2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		56C9325F0EA00D57E47C6BB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pinduoduo/Pods-pinduoduo-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-16/iOS/RevealServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinduoduo/Pods-pinduoduo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED7EBD67715FB60D06A6455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pinduoduo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7C6F9F665E0E9279FFD7C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pinduoduoDylib/Pods-pinduoduoDylib-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinduoduoDylib/Pods-pinduoduoDylib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E28116B212D2F9C00168CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E281180212D2F9C00168CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E28119C212D2F9C00168CD2 /* MDCycriptManager.m in Sources */,
+				3E4C976B212D63C700EAC6A0 /* AMHttpResponseExtraInfo.m in Sources */,
+				3E2811A4212D2F9C00168CD2 /* ANYMethodLog.m in Sources */,
+				3E281198212D2F9C00168CD2 /* MDConfigManager.m in Sources */,
+				3E2811A9212D2F9C00168CD2 /* LLDBTools.mm in Sources */,
+				3E2811B7212D2F9C00168CD2 /* pinduoduoDylib.m in Sources */,
+				3E281193212D2F9C00168CD2 /* pinduoduoDylib.mm in Sources */,
+				3E2811A0212D2F9C00168CD2 /* MDMethodTrace.m in Sources */,
+				3E2811B1212D2F9C00168CD2 /* fishhook.c in Sources */,
+				3E4C9764212D63A100EAC6A0 /* AMHTTPResponse.m in Sources */,
+				3E2811AE212D2F9C00168CD2 /* AntiAntiDebug.m in Sources */,
+				3E4C9751212D51BC00EAC6A0 /* CTBlockDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E281187212D2F9C00168CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E281183212D2F9C00168CD2 /* pinduoduoDylib */;
+			targetProxy = 3E281186212D2F9C00168CD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E2811B8212D2F9C00168CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E2811B9212D2F9C00168CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2811BB212D2F9C00168CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23742FEDD9800E36FC5D0147 /* Pods-pinduoduoDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A699ZBP9G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinduoduoDylib/pinduoduoDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libpinduoduoDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"pinduoduoDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		3E2811BC212D2F9C00168CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BFF1D7EEFD236541E3E3F3 /* Pods-pinduoduoDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4A699ZBP9G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinduoduoDylib/pinduoduoDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libpinduoduoDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"pinduoduoDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E2811BE212D2F9C00168CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6191157EA6D7BD49C1935BB /* Pods-pinduoduo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A699ZBP9G;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = pinduoduo/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.tmgp.pubgmhd.pinduoduo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E2811BF212D2F9C00168CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26943E286B6585FA9FF7CC4A /* Pods-pinduoduo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A699ZBP9G;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = pinduoduo/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.tmgp.pubgmhd.pinduoduo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E28116A212D2F9C00168CD2 /* Build configuration list for PBXProject "pinduoduo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2811B8212D2F9C00168CD2 /* Debug */,
+				3E2811B9212D2F9C00168CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2811BA212D2F9C00168CD2 /* Build configuration list for PBXNativeTarget "pinduoduoDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2811BB212D2F9C00168CD2 /* Debug */,
+				3E2811BC212D2F9C00168CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2811BD212D2F9C00168CD2 /* Build configuration list for PBXNativeTarget "pinduoduo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2811BE212D2F9C00168CD2 /* Debug */,
+				3E2811BF212D2F9C00168CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E281167212D2F9C00168CD2 /* Project object */;
+}

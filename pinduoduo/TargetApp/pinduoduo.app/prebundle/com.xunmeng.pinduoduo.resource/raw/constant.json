@@ -1,0 +1,323 @@
+{
+    "api_request_connect_time_out": 3,
+    "api_request_time_out": 10,
+    "batch_update_component": 1,
+    "compress_image_append": "@750w_1l_50Q.webp",
+    "compress_image_domains": [
+        "omsproductionimg.yangkeduo.com",
+        "pddtestimg.yangkeduo.com"
+    ],
+    "compress_image_suffixes": [
+        ".png",
+        ".jpg",
+        ".jpeg"
+    ],
+    "default_bigger_page_size": 50,
+    "default_page_size": 20,
+    "enable_home_opt_new_style": 0,
+    "enable_inspector": 1,
+    "home_banner_new_api": 0,
+    "home_banner_new_api_v2": 1,
+    "home_free_trial_goods_event_types": [
+        7,
+        11
+    ],
+    "home_free_trial_goods_not_visible_user_types": [
+        "2",
+        "3"
+    ],
+    "home_lottery_goods_event_types": [
+        1
+    ],
+    "home_lottery_goods_not_visible_user_types": [
+        "2",
+        "3"
+    ],
+    "user_black_list_key": [
+        "2"
+    ],
+    "home_assist_goods_visible_user_types" : [
+    ],
+    "home_assist_goods_visible_user_types_v2" : [
+        "3"
+    ],
+    "home_opt_extra": {
+        "15": {
+            "goods_desc_title": "一站购齐·买退无忧",
+            "goods_main_title": "品质生活",
+            "show_spike": 1,
+            "spike_title": "优品速抢",
+            "spike_url": "spike/8/goods",
+            "subjects_id": "18"
+        },
+        "18": {
+            "goods_desc_title": "7天退换·全国联保",
+            "goods_main_title": "官方大牌",
+            "show_spike": 1,
+            "spike_title": "品牌限时抢",
+            "spike_url": "spike/18/goods",
+            "subjects_id": "23"
+        },
+        "4": {
+            "show_spike": 1,
+            "spike_url": "spike_mother_baby",
+            "subjects_id": "20"
+        }
+    },
+    "home_opt_new_style_ids": [
+        "15",
+        "4",
+        "18"
+    ],
+    "home_save_entrances": 1,
+    "home_save_entrances_log": 0,
+    "home_show_custom_number_event_types": [
+        1,
+        7,
+        11
+    ],
+    "search_catalog_head_festival_type_v2": {
+        "1212": {
+            "start_time": 1512316800,
+            "end_time": 1513267199
+        },
+        "spring": {
+            "start_time": 1515945600,
+            "end_time": 1516550400
+        },
+        "goddess": {
+            "start_time": 1520179200,
+            "end_time": 1520524800
+        },
+        "618": {
+            "start_time": 1528387200,
+            "end_time": 1529510400
+        }
+    },
+    "image_error_tracking_ratio": 10,
+    "image_retry_download_times": 4,
+    "meta_timer_interval": 300,
+    "new_gif_load_api": 0,
+    "refresh_home_goods_interval": 1800,
+    "splash_ad_click_url": "",
+    "splash_ad_enabled": 1,
+    "splash_ad_start_time": 1529078400,
+    "splash_ad_end_time": 1529164799,
+    "splash_ad_v2_enabled": 1,
+    "splash_animation_duration_time": 3,
+    "splash_image_max_show_times": 1,
+    "splash_img1": "http://pinduoduoimg.yangkeduo.com/ios/20180616_1/splash-1.jpg",
+    "splash_img2": "http://pinduoduoimg.yangkeduo.com/ios/20180616_1/splash-2.jpg",
+    "splash_img3": "http://pinduoduoimg.yangkeduo.com/ios/20180616_1/splash-3.jpg",
+    "splash_img4": "http://pinduoduoimg.yangkeduo.com/ios/20180616_1/splash-4.jpg",
+    "splash_img5": "http://pinduoduoimg.yangkeduo.com/ios/20180616_1/splash-5.jpg",
+    "splash_imgx": "http://pinduoduoimg.yangkeduo.com/ios/20180616_1/splash-x.jpg",
+    "splash_transition_animation_duration": 0.5,
+
+    "splash_transition_animation_enabled": 0,
+    "support_screenshot_share_urls": [
+        "complaint.html",
+        "complaint_detail.html",
+        "complaint_list.html"
+    ],
+    "tracking_impl_interval": 0.3,
+    "unsupported_auto_create_group_event_types": [
+        2,
+        3,
+        8,
+        9,
+        10
+    ],
+    "is_new_order_coupon_share": 1,
+    "disable_show_activity_button_pages_v2": [
+        "goods_detail"
+    ],
+    "disable_show_activity_button_pages": [
+        "goods_detail"
+    ],
+    "enable_weibo_login":1,
+    "user_activity_type_browsing_web":"NSUserActivityTypeBrowsingWeb",
+    "enable_moments_entry":1,
+    "home_manual_goods_page_size":60,
+    "pdd_home_activity_style_one_start_time_v2":1528387200,
+    "pdd_home_activity_style_one_end_time_v2":1529078399,
+    "pdd_home_activity_style_two_start_time_v2":1529078400,
+    "pdd_home_activity_style_two_end_time_v2":1529337599,
+    "pdd_home_activity_style_one_background_image_url":"amcomponent://com.xunmeng.pinduoduo.resource/image/activity/home_backgroud_style1.png",
+    "pdd_home_activity_style_two_background_image_url":"amcomponent://com.xunmeng.pinduoduo.resource/image/activity/home_backgroud_style2.png",
+    "pdd_home_activity_style_two_entrance_title_color":16777215,
+    "pdd_home_activity_style_two_indicator_view_background_color":11143680,
+    "pdd_home_activity_style_two_indicator_background_color":16765440,
+    "pdd_home_activity_style_one_entrance_title_color":7829367,
+    "pdd_home_activity_style_one_indicator_view_background_color":15263976,
+    "pdd_home_activity_style_one_indicator_background_color":16738665,
+    "pdd_show_integration_ui_start_time_v2":1528387200,
+    "pdd_show_integration_ui_end_time_v2":1529510399,
+    "pdd_valid_phone_number_regex":"^((\\+86)|(86))?(1)\\d{10}$",
+    "oss_process_image":"?x-oss-process=image/format,webp/quality,50",
+    "oss_watermark_image_suffixes": [
+        ".png",
+        ".jpg",
+        ".jpeg"
+    ],
+    "oss_watermark_image_domains": [
+        "omsproductionimg.yangkeduo.com",
+        "pddtestimg.yangkeduo.com"
+    ],
+    "oss_watermark_image_domain_regex":"^a\\d+img.yangkeduo.com$",
+    "oss_compress_image_append": "@750w_1l_50Q.webp", 
+    "oss_compress_image_suffixes": [
+        ".png",
+        ".jpg",
+        ".jpeg"
+    ],
+    "oss_compress_image_domains": [
+        "omsproductionimg.yangkeduo.com",
+        "pddtestimg.yangkeduo.com"
+    ],
+    "oss_compress_image_domain_regex":"^a\\d+img.yangkeduo.com$",
+    "oss_has_compress_image_flag":"x-oss-process",
+    "tencentyun_process_image":"?imageMogr2/format/webp/quality/50%7C",
+    "tencentyun_watermark_image_suffixes": [
+        ".png",
+        ".jpg",
+        ".jpeg"
+    ],
+    "tencentyun_watermark_image_domains": [
+        "testimg.yangkeduo.com"
+    ],
+    "tencentyun_watermark_image_domain_regex":"^t\\d+img.yangkeduo.com$",
+    "tencentyun_compress_image_append": "?imageMogr2/format/webp/quality/50",
+    "tencentyun_compress_image_suffixes": [
+        ".png",
+        ".jpg",
+        ".jpeg"
+    ],
+    "tencentyun_compress_image_domains": [
+        "testimg.yangkeduo.com"
+    ],
+    "tencentyun_compress_image_domain_regex":"^t\\d+img.yangkeduo.com$",
+    "tencentyun_has_compress_image_flag":"imageMogr2",
+    "pdd_home_new_promotion_subject_api":1,
+    "pdd_vip_users":["1968556406","5003422842","3806020865"],
+    "pdd_home_icons_users":["5003422842","4024881948","2465365777","4671808246","5718657172","5366921316","4884336723","5459653118"],
+    "component.dynamic_update_component_infos": "[{\"AMBundleAppKey\":\"com.xunmeng.pinduoduo.market\",\"AMBundleLocalPath\":\"com.xunmeng.pinduoduo\",\"AMBundleName\":\"com.xunmeng.pinduoduo.market\"},{\"AMBundleAppKey\":\"com.xunmeng.pinduoduo.personal\",\"AMBundleLocalPath\":\"com.xunmeng.pinduoduo\",\"AMBundleName\":\"com.xunmeng.pinduoduo.personal\"},{\"AMBundleAppKey\":\"com.xunmeng.pinduoduo.aftersale\",\"AMBundleLocalPath\":\"com.xunmeng.pinduoduo\",\"AMBundleName\":\"com.xunmeng.pinduoduo.aftersale\"},{\"AMBundleAppKey\":\"com.xunmeng.pinduoduo.commodity\",\"AMBundleLocalPath\":\"com.xunmeng.pinduoduo\",\"AMBundleName\":\"com.xunmeng.pinduoduo.commodity\"}]",
+    "anti_token.valid_url":["api/promotion/take_superposition_coupon_from_goods_detail","api/lisbon/query_user_promotion_bar","search","/api/market/avengers/goods_view","verification_code_picture","mobile/code/request","api/vancouver/group_full_auto_open/prepay","api/lisbon/fullback/send_fullback_coupon","api/turing/mall/query_cat_goods","v2/order/goods/review","order/goods/review/append"],
+    "anti_token.matching_url":[{"prefix":"v3/operation/","suffix":"/groups"},{"prefix":"v4/operation/","suffix":"/groups"}],
+    "image.update_domain_to_ip":"1",
+    "image.download_timeout":"30",
+    "image.detect_domain_infos":"[{\"domain\":\"omsproductionimg.yangkeduo.com\",\"ip\":\"139.224.7.165\",\"detect_url\":\"http:\/\/omsproductionimg.yangkeduo.com\/20160811\/notdel.jpeg\",\"using_ip_error_codes\":[503,-1001,-1003,-1004,-1005,-1200,-1201,-1202,-1203,-1204,-1205,-1206,-2000],\"max_ip_access_count\":20,\"detect_download_timeout\":2},{\"domain\":\"avatar.yangkeduo.com\",\"ip\":\"101.132.88.170\",\"detect_url\":\"http:\/\/avatar.yangkeduo.com\/a\/notdel.jpeg\",\"using_ip_error_codes\":[503,-1001,-1003,-1004,-1005,-1200,-1201,-1202,-1203,-1204,-1205,-1206,-2000],\"max_ip_access_count\":20,\"detect_download_timeout\":2}]",
+    "image.detect_domain_infos_v2" : [
+        {
+            "domain": "omsproductionimg.yangkeduo.com",
+            "ip_list": ["139.224.7.165"],
+            "detect_url": "http://omsproductionimg.yangkeduo.com/20160811/notdel.jpeg",
+            "using_ip_error_codes": [
+                310,
+                503,
+                28,
+                306,
+                -1001,
+                -1003,
+                -1004,
+                -1005,
+                -1200,
+                -1201,
+                -1202,
+                -1203,
+                -1204,
+                -1205,
+                -1206,
+                -2000
+            ],
+            "max_ip_access_count": 20,
+            "detect_download_timeout": 2
+        },
+        {
+            "domain": "avatar.yangkeduo.com",
+            "ip_list": ["101.132.88.170"],
+            "detect_url": "http://avatar.yangkeduo.com/a/notdel.jpeg",
+            "using_ip_error_codes": [
+                310,
+                503,
+                28,
+                306,
+                -1001,
+                -1003,
+                -1004,
+                -1005,
+                -1200,
+                -1201,
+                -1202,
+                -1203,
+                -1204,
+                -1205,
+                -1206,
+                -2000
+            ],
+            "max_ip_access_count": 20,
+            "detect_download_timeout": 2
+        },
+        {
+            "domain": "^t\\d+img.yangkeduo.com$",
+            "type":1,
+            "match_type":1,
+            "ip_list": ["118.25.117.206","118.25.118.225"],
+            "detect_url": "http://t01img.yangkeduo.com/notdel.jpg",
+            "using_ip_error_codes": [
+                310,
+                503,
+                28,
+                306,
+                -1001,
+                -1003,
+                -1004,
+                -1005,
+                -1200,
+                -1201,
+                -1202,
+                -1203,
+                -1204,
+                -1205,
+                -1206,
+                -2000
+            ],
+            "max_ip_access_count": 10,
+            "detect_download_timeout": 5
+        }
+    ],
+    "express_banner_enabled": 0,
+    "image.support_https":"0",
+    "image.support_https_hosts":"[\"omsproductionimg.yangkeduo.com\",\"avatar.yangkeduo.com\"]",
+    "image.allow_invalid_ssl_certificates":"1",
+    "share.enable_wechat_share_timeline_appids":0,
+    "share.enable_wechat_share_timeline_appids_v2":0,
+    "share.enable_wechat_share_timeline_appids_v3":1,
+    "search_hot_query_cache_age_limit" : 1,
+    "base_service_report_error" : 0,
+    "odd_even_logic_limited": 10,
+    "pdd_card_img_cdn_url":"http://t12img.yangkeduo.com/social/",
+    "pdd_personal_merchants_settled_url":"https://mai.pinduoduo.com/my-shop.html?p_gzh=pddapp&auto_set_title=1",
+    "comment_rank_star_goods_descs": ["差","较差","一般","好","很好"],
+    "comment_rank_star_express_descs": ["慢","较慢","一般","快","很快"],
+    "comment_rank_star_service_descs": ["差","较差","一般","好","很好"],
+    "comment.rank_star_goods_num": 0,
+    "pdd_search_result_activity_ui_config" : {
+        "wire_frame_corner_radius" : 4,
+        "wire_frame_border_color" : "#e02E24",
+        "wire_frame_backgroud_color" : "#ffffff",
+        "title_label_unselect_text" : "优先看夏末清仓特惠商品",
+        "title_label_select_text" : "夏末清仓特惠商品已优先",
+        "title_label_font" : 13,
+        "wire_frame_unselect_border_width" : 0.5,
+        "wire_frame_select_border_width" : 1,
+        "title_label_text_color" : "#e02e24",
+        "title_label_target_text" : "夏末清仓特惠商品",
+        "promotion_id" : "3"
+    },
+    "search_result_scroll_goods_index" : 0,
+    "search_result_active_coupon_visible_time_when_untake" : 10,
+    "work_hour":{
+        "mall_descrption":"多多机器人客服24小时在线，全天候为您服务。\n人工客服工作时间为每天08:30-23:00，多多机器人客服无法为您解决的问题将由人工客服帮您来解决。"
+    }
+}

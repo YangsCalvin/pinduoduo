@@ -1,0 +1,147 @@
+{
+    "pdd_goods_detail": {
+        "group_buy_button_title_7"          : "一键拼单",
+        "group_buy_invalid_button_title_7"  : "一键拼单",
+        "group_buy_button_title_11"         : "一键拼单",
+        "luck_draw_rule_1"                  : "\n抽奖规则\n活动时间: {s}~{e}\n1.活动结束后将从拼单成功的订单中随机抽取中奖者。\n2.一等奖为{g}（共{q}名），二等奖会全额退款并赠送88元代金券。未达拼单人数，款项将自动原路返还。拼单成功100%中奖，至少获得二等奖。\n3.中奖的商品预计{p}发放。",
+        "luck_draw_rule_7"                  : "\n免费试用规则\n活动时间: {s}~{e}\n1.活动结束后将从拼单成功的所有订单中，随机选取{q}名试用者赠送。\n2.一等奖为{g}，二等奖为88元优惠券。\n3.试用的商品预计{p}发放。\n4.试用者完成试用报告后可以保留试用品。",
+        "MTBZ_rule"                         : "\n1.【成团后拼主必拿】拼单成功100%人人有奖，拼主必拿，另外从所有拼员中随机抽取1人获得该商品，为一等奖，其余拼员获得88元代金券，为二等奖。\n2.开奖后可前往【我的订单】查看中奖详情。\n3.每人每天可开团3次，参团3次。\n4.若发现中奖用户存在刷单等违规行为，平台有权取消该用户的活动资格。",
+        "MTBZ_rule_non"                     : "1.【成团后拼主必拿】拼单成功100%人人有奖，拼主必拿，另外从所有拼员中随机抽取1人获得该商品，为一等奖，其余拼员获得88元代金券，为二等奖。\n2.开奖后可前往【我的订单】查看中奖详情。\n3.每人每天可开团3次，参团3次。\n4.若发现中奖用户存在刷单等违规行为，平台有权取消该用户的活动资格。"
+    },
+    "network_error": "手机网络不太顺畅，请检查网络状况",
+    "pdd_home_recommend": {
+        "network_error": "手机网络不太顺畅，请检查网络状况"
+    },
+    "address": {
+        "network_error": "更新失败"
+    },
+    "pdd_haitao": {
+        "share_url": "haitao.html"
+    },
+    "pdd_bargain": {
+        "share_url": "subjects.html?subjects_id=12"
+    },
+    "rank_hot": {
+        "share_url": "rank_hot.html"
+    },
+    "rank_new": {
+        "share_url": "rank_new.html"
+    },
+    "rank_subject": {
+        "share_url": "prime_subjects.html"
+    },
+    "rank": {
+        "share_url": "new_arrivals.html"
+    },
+    "spike": {
+        "share_url": "spike.html"
+    },
+    "superbrand": {
+        "share_url": "subjects.html?subjects_id=14"
+    },
+    "pdd_search": {
+        "share_title": "拼多多-全部分类",
+        "share_message": "风靡全国的拼单商城，优质商品新鲜直供，快来一起拼多多吧",
+        "share_thumbnail_url": "base/share_logo.jpg"
+    },
+    "order_list_category": {
+        "share_title": "拼多多发放优惠券啦，购物直抵现金哦~",
+        "share_message": "手快有，手慢无，抢券购买更优惠，APP里确认收货拿紅包！",
+        "confirm_receipt_alert_message": "确认收货可以领取红包，记得收到货后再确认收货哦！"
+    },
+    "pdd_order": {
+        "share_title": "拼多多发放优惠券啦，购物直抵现金哦~",
+        "share_message": "手快有，手慢无，抢券购买更优惠，APP里确认收货拿紅包！"
+    },
+    "red_packet": {
+        "share_title": "拼多多发放优惠券啦，购物直抵现金哦~",
+        "share_message": "手快有，手慢无，用券购买更优惠，APP里确认收货拿紅包！",
+        "share_thumbnail_url": "share/coupon_send.png"
+    },
+    "red_packet_activity": {
+        "share_title": "拼多多发放优惠券啦，购物直抵现金哦~",
+        "share_message": "手快有，手慢无，用券购买更优惠，APP里确认收货拿紅包！",
+        "share_thumbnail_url": "share/coupon_send.png"
+    },
+    "red_packet_v2": {
+        "share_title": "拼多多发放优惠券啦，购物直抵现金哦~",
+        "share_message": "手快有，手慢无，用券购买更优惠，APP里确认收货拿紅包！",
+        "share_thumbnail_url": "share/coupon_send.png"
+    },
+    "red_packet_activity_v2": {
+        "share_title": "拼多多发放优惠券啦，购物直抵现金哦~",
+        "share_message": "手快有，手慢无，用券购买更优惠，APP里确认收货拿紅包！",
+        "share_thumbnail_url": "ios/share/20180418.png"
+    },
+    "red_packet_v3": {
+        "share_title": "给你发红包啦，最大25元",
+        "share_message": "手快有，手慢无，快来和我一起拆紅包",
+        "share_thumbnail_url": "share/coupon_send_v2.jpeg",
+        "share_url": "coupon_group_share.html"
+    },
+    "red_packet_activity_v3": {
+        "in_use": "0",
+        "share_title": "邀请好友拆红包啦，购物直抵现金哦~",
+        "share_message": "手快有，手慢无，用券购买更优惠，App里确认收货拿紅包",
+        "share_thumbnail_url": "ios/share/20180418.png",
+        "share_url": "coupon_group_share.html"
+    },
+    "pdd_feedback": {
+        "feedback_submiting": "正提交中…",
+        "feedback_input_valid_content": "请输入有效内容",
+        "feedback_create_failed": "意见提交失败，请重试",
+        "feedback_exceed_limit": "提交失败，提交超过次数限制",
+        "feedback_input_contact": "请输入手机号",
+        "feedback_input_valid_contact": "请输入正确的手机号",
+        "feedback_product_function_suggestion_placeholder": "请提出您宝贵的体验建议，我们将不断优化您的体验",
+        "feedback_system_function_suggestion_placeholder": "请描述您使用过程中出现的问题，我们将尽快优化系统功能"
+    },
+    "single_row_goods_cell": {
+        "apply_free_use": "去拼单"
+    },
+    "order_status_desc": {
+        "first_prize_unshipped_ft": "一等奖，待发货",
+        "first_prize_unreceived_ft": "一等奖，待收货",
+        "first_prize_unremarked_ft": "一等奖，待评价",
+        "first_prize_remarked_ft": "一等奖，已评价",
+        "second_prize_ft": "二等奖，已送券"
+    },
+    "search_forward" : {
+        "search_forward_text_info" : "app秒杀:seckill_list.html?type=21|超值大礼:seckill_list.html?type=21|免费领:seckill_list.html?type=21|新春福利:seckill_list.html?type=21|立即领取:seckill_list.html?type=21"
+    },
+    "chat_order_cell": {
+        "os2_ls0" : "拼单成功，待抽奖",
+        "os5_ls0" : "拼单未成功，退款处理中",
+        "os6_ls0" : "拼单未成功，退款成功",
+        "os7_ls0" : "交易已取消",
+        "ass14"   : "售后待卖家处理",
+        "ass15"   : "售后待用户处理",
+        "ass16"   : "换货/补寄成功",
+        "ass17"   : "售后关闭",
+        "ass18"   : "售后待用户确认"
+    },
+    "chat_pay_introduction":{
+        "title" : "新增官方“发红包”功能",
+        "sub_title" : "无需加好友发红包，更安全、更快捷～"
+    },
+    "chat_pay_button":{
+        "title" : "发红包"
+    },
+    "login_error_message":{
+        "40003" : "请稍后重试",
+        "40013" : "请稍后重试",
+        "40015" : "您的操作太频繁，请稍后重试",
+        "40016" : "验证次数已达当日上限，请明日重试",
+        "40017" : "",
+        "40018" : "验证结果错误，请重新验证",
+        "40019" : "验证码已失效，请重新验证",
+        "43021" : "请重新下载最新客户端并尝试登陆",
+        "110000" : "请稍后重试"
+    },
+    "work_hour":{
+        "mall_descrption":"多多机器人客服24小时在线，全天候为您服务。\n人工客服工作时间为每天08:30-23:00，多多机器人客服无法为您解决的问题将由人工客服帮您来解决。"
+    },
+    "pdd_module_recommend":{
+        "head_title" : "精选推荐"
+    }
+}
